@@ -54,7 +54,7 @@ export { default as slicedToArrayLoose } from './_sliced_to_array_loose';
 export { default as superPropBase } from './_super_prop_base';
 export { default as taggedTemplateLiteral } from './_tagged_template_literal';
 export { default as taggedTemplateLiteralLoose } from './_tagged_template_literal_loose';
-export { default as throw } from './_throw';
+export { default as _throw } from './_throw';
 export { default as toArray } from './_to_array';
 export { default as toConsumableArray } from './_to_consumable_array';
 export { default as toPrimitive } from './_to_primitive';

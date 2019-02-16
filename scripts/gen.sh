@@ -2,4 +2,4 @@
 set -eu
 
 ./scripts/generator.sh > src/index.js
-npx webpack
+WEBPACK_ENV=production npx webpack

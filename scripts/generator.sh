@@ -17,5 +17,8 @@ for src in $lines; do
   if [ $name = "instanceof" ]; then
     name='_instanceof';
   fi
+  if [ $name = "throw" ]; then
+    name='_throw';
+  fi
   echo "export { default as $name } from './$src';"
 done
