@@ -1,0 +1,30 @@
+{
+  "name": "@swc/helpers",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swc-project/helpers.git"
+  },
+  "keywords": [
+    "swc",
+    "helpers"
+  ],
+  "author": "강동윤 <kdy1@outlook.kr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swc-project/helpers/issues"
+  },
+  "homepage": "https://github.com/swc-project/helpers#readme",
+  "devDependencies": {
+    "@swc/cli": "^0.1.12",
+    "@swc/core": "^1.0.14",
+    "swc-loader": "^0.1.4",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
