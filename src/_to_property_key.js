@@ -1,5 +1,5 @@
-const _typeof = require('./_type_of');
-const toPrimitive = require('./_to_primitive');
+import _typeof from './_type_of';
+import toPrimitive from './_to_primitive';
 
 export default function _toPropertyKey(arg) {
   var key = toPrimitive(arg, "string");

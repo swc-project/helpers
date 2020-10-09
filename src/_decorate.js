@@ -1,5 +1,5 @@
-const toArray = require('./_to_array');
-const toPropertyKey = require('./_to_property_key');
+import toArray from './_to_array';
+import toPropertyKey from './_to_property_key';
 
 export default function _decorate(decorators, factory, superClass) {
   var r = factory(function initialize(O) {

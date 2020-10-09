@@ -1,4 +1,4 @@
-const AsyncGenerator = require('./_async_generator');
+import AsyncGenerator from './_async_generator';
 
 export default function _wrapAsyncGenerator(fn) {
   return function () {

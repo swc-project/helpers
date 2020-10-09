@@ -1,4 +1,4 @@
-const AwaitValue = require('./_await_value');
+import AwaitValue from './_await_value';
 
 export default function AsyncGenerator(gen) {
   var front, back;

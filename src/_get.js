@@ -1,4 +1,4 @@
-const superPropBase = require('./_super_prop_base');
+import superPropBase from './_super_prop_base';
 
 export default function _get(target, property, receiver) {
   if (typeof Reflect !== "undefined" && Reflect.get) {

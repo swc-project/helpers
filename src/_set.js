@@ -1,5 +1,5 @@
-const defineProperty = require('./_define_property');
-const superPropBase = require('./_super_prop_base');
+import defineProperty from './_define_property';
+import superPropBase from './_super_prop_base';
 
 function set(target, property, value, receiver) {
   if (typeof Reflect !== "undefined" && Reflect.set) {

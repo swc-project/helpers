@@ -1,7 +1,7 @@
-const construct = require('./_construct');
-const isNativeFunction = require('./_is_native_function');
-const getPrototypeOf = require('./_get_prototype_of');
-const setPrototypeOf = require('./_set_prototype_of');
+import construct from './_construct';
+import isNativeFunction from './_is_native_function';
+import getPrototypeOf from './_get_prototype_of';
+import setPrototypeOf from './_set_prototype_of';
 
 export default function _wrapNativeSuper(Class) {
   var _cache = typeof Map === "function" ? new Map() : undefined;
