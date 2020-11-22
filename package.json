@@ -5,6 +5,7 @@
   "esnext": "src/index.js",
   "main": "lib/index.js",
   "scripts": {
+    "build": "swc src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +24,6 @@
   "homepage": "https://github.com/swc-project/helpers#readme",
   "devDependencies": {
     "@swc/cli": "^0.1.12",
-    "@swc/core": "^1.0.14",
-    "swc-loader": "^0.1.4",
-    "webpack": "^4.29.4",
-    "webpack-cli": "^3.2.3"
+    "@swc/core": "^1.0.14"
   }
 }
