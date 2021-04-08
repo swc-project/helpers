@@ -1,4 +1,4 @@
-import superPropBase from "./_super_prop_base";
+import superPropBase from './_super_prop_base';
 
 export default function get(target, property, receiver) {
   if (typeof Reflect !== "undefined" && Reflect.get) {
