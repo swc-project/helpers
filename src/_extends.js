@@ -1,5 +1,5 @@
-export default function _extends() {
-  _extends = Object.assign || function (target) {
+function extends_() {
+  extends_ = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
 
@@ -13,5 +13,9 @@ export default function _extends() {
     return target;
   };
 
-  return _extends.apply(this, arguments);
+  return extends_.apply(this, arguments);
+}
+
+export default function _extends() {
+  return extends_.apply(this, arguments);
 }

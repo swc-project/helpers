@@ -11,11 +11,11 @@ function isNativeReflectConstruct() {
   }
 }
 
-export default function _construct(Parent, args, Class) {
+function construct(Parent, args, Class) {
   if (isNativeReflectConstruct()) {
-    _construct = Reflect.construct;
+    construct = Reflect.construct;
   } else {
-    _construct = function _construct(Parent, args, Class) {
+    construct = function construct(Parent, args, Class) {
       var a = [null];
       a.push.apply(a, args);
       var Constructor = Function.bind.apply(Parent, a);
@@ -25,5 +25,9 @@ export default function _construct(Parent, args, Class) {
     };
   }
 
-  return _construct.apply(null, arguments);
+  return construct.apply(null, arguments);
+}
+
+export default function _construct(Parent, args, Class) {
+  return construct.apply(null, arguments);
 }
