@@ -1,4 +1,4 @@
-export default function getPrototypeOf(o) {
+function getPrototypeOf(o) {
   getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function getPrototypeOf(o) {
     return o.__proto__ || Object.getPrototypeOf(o);
   };
