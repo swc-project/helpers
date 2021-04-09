@@ -1,6 +1,10 @@
-export default function _getPrototypeOf(o) {
-  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+function getPrototypeOf(o) {
+  getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function getPrototypeOf(o) {
     return o.__proto__ || Object.getPrototypeOf(o);
   };
-  return _getPrototypeOf(o);
+  return getPrototypeOf(o);
+}
+
+export default function _getPrototypeOf(o) {
+  return getPrototypeOf(o);
 }
