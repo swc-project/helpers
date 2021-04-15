@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "swc -V && swc src -d lib",
+    "prepublishOnly": "swc src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
