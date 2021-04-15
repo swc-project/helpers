@@ -1,6 +1,6 @@
 {
   "name": "@swc/helpers",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "",
   "esnext": "src/index.js",
   "main": "lib/index.js",
@@ -19,7 +19,7 @@
   "author": "강동윤 <kdy1@outlook.kr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swc-project/helpers/issues"
+    "url": "https://github.com/swc-project/swc/issues"
   },
   "homepage": "https://github.com/swc-project/helpers#readme",
   "devDependencies": {
