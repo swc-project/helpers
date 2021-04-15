@@ -1,11 +1,11 @@
 {
   "name": "@swc/helpers",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "",
   "esnext": "src/index.js",
   "main": "lib/index.js",
   "scripts": {
-    "build": "swc src -d lib",
+    "build": "swc -V && swc src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/swc-project/helpers#readme",
   "devDependencies": {
-    "@swc/cli": "^0.1.12",
+    "@swc/cli": "^0.1.36",
     "@swc/core": "^1.2.52"
   }
 }
