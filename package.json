@@ -3,7 +3,9 @@
   "version": "0.2.10",
   "description": "",
   "esnext": "src/index.js",
+  "module": "src/index.js",
   "main": "lib/index.js",
+  "sideEffects": false,
   "scripts": {
     "build": "swc -V && swc src -d lib",
     "prepublishOnly": "swc src -d lib",
