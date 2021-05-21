@@ -1,6 +1,6 @@
 {
   "name": "@swc/helpers",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "",
   "esnext": "src/index.js",
   "module": "src/index.js",
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/swc-project/helpers#readme",
   "devDependencies": {
     "@swc/cli": "^0.1.36",
-    "@swc/core": "^1.2.52"
+    "@swc/core": "^1.2.58"
   }
 }
