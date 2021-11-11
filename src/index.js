@@ -62,3 +62,5 @@ export { default as toPropertyKey } from './_to_property_key';
 export { default as typeOf } from './_type_of';
 export { default as wrapAsyncGenerator } from './_wrap_async_generator';
 export { default as wrapNativeSuper } from './_wrap_native_super';
+export { default as createSuper } from './_create_super';
+export { default as isNativeReflectConstruct } from './_is_native_reflect_construct';
